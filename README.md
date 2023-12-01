@@ -16,12 +16,11 @@ This repository contains the core technology for a scaffolding detection system 
 
 ## Usage
 
-To use the pre-trained models or to train new ones, follow these steps:
+To fine-tune new models, follow these steps:
 
 1. Clone this repository to your local machine or Google Colab environment.
 2. Ensure that the `cv_dataset` directory is properly set up with the two subdirectories (`yes_scaffolding` and `no_scaffolding`).
 3. Run `Model_Training_Colab.ipynb` to train new models or to retrain the existing ones with additional data.
-4. The trained models can be found in the `models/` directory and can be used for scaffolding detection in new images.
 
 ## Future Integration
 
