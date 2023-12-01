@@ -10,7 +10,7 @@ This repository contains the core technology for a scaffolding detection system 
   - `yes_scaffolding/`: Contains approximately 200 images where scaffolding is present in the scene.
   - `no_scaffolding/`: Contains approximately 200 images with no scaffolding in the scene.
 
-- `models/`: This folder hosts five pre-trained EfficientNet models. Each of these models has achieved an accuracy of 95% or higher on the `cv_dataset` training set.
+- `models/`: This folder hosts five fine-tuned EfficientNet models for scaffolding detection. Each of these models has achieved an accuracy of 95% or higher on the `cv_dataset` training set.
 
 - `Model_Training_Colab.ipynb`: A Jupyter Notebook that includes code to train additional models. This notebook is compatible with Google Colab and can be used alongside the `cv_dataset` directory to train models capable of detecting scaffolding in various shots.
 
